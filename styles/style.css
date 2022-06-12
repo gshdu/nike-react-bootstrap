@@ -37,6 +37,10 @@ body {
     background-color: #FFF9F4;
 }
 
+.hero-img {
+    width: 29rem;
+}
+
 .hero-header {
     font-size: 5rem;
     line-height: 5rem;
@@ -145,4 +149,18 @@ body {
     .card {
         padding-top: 1rem;
     }
+}
+
+/* tab devices */
+
+@media only screen and (min-width: 750px) and (max-width: 850px) {
+
+    .hero-tab-img {
+        width: 21rem;
+    }
+
+    .hero-details {
+        width: 50%;
+    }
+
 }
