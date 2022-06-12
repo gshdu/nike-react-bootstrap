@@ -34,8 +34,8 @@ body {
 }
 
 .hero-header {
-    font-size: 4rem;
-    line-height: 4rem;
+    font-size: 5rem;
+    line-height: 5rem;
     font-family: 'Bebas Neue', cursive;
     font-weight: 700;
     text-transform: uppercase;
@@ -115,6 +115,11 @@ body {
 
 /* mobile devices */
 @media only screen and (max-width: 600px) {
+
+    .hero-header {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
 
     .feature-card-title,
     .feature-card-details {
