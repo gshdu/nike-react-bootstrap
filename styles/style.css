@@ -1,0 +1,110 @@
+/* ------------
+    fonts
+------------ */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* ----------------------
+    common utilities
+----------------------- */
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.button-decoration {
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-size: 1rem;
+    text-transform: uppercase;
+    line-height: 1.5rem;
+    padding: 1.125rem 2.125rem;
+    background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+    border-radius: 0.625rem;
+    border: 0;
+}
+
+/* --------------------------
+    header section styles
+-------------------------- */
+
+.header-background {
+    background-color: #FFF9F4;
+}
+
+.hero-header {
+    font-size: 5rem;
+    line-height: 5rem;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.hero-text-1 {
+    color: #FA804C;
+}
+
+.hero-text-2 {
+    color: #363958;
+}
+
+.hero-para {
+    font-family: 'Roboto', sans-serif;
+    color: #3E3E3E;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+/* --------------------------------
+    products' section styles
+-------------------------------- */
+
+.product-title {
+    font-family: 'Roboto', sans-serif;
+    color: #363958;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.product-details {
+    font-family: 'Roboto', sans-serif;
+    color: #3E3E3E;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.625rem;
+}
+
+.product-header {
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.product-price {
+    font-family: 'Roboto', sans-serif;
+    color: #FA804C;
+    font-weight: 900;
+    font-size: 2.25rem;
+}
+
+/* --------------------------------
+    features section styles
+-------------------------------- */
+
+.feature-card-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #363958;
+}
+
+.feature-card-details {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    font-weight: normal;
+    color: #3E3E3E;
+}
