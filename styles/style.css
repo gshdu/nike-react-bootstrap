@@ -29,6 +29,10 @@ body {
     header section styles
 -------------------------- */
 
+.navbar-brand img {
+    width: 18.5rem;
+}
+
 .header-background {
     background-color: #FFF9F4;
 }
@@ -114,7 +118,18 @@ body {
 ------------------- */
 
 /* mobile devices */
-@media only screen and (max-width: 600px) {
+
+@media only screen and (min-width: 0) and (max-width: 350px) {
+    .navbar-brand img {
+        width: 11.5rem;
+    }
+}
+
+@media only screen and (min-width: 350) and (max-width: 600px) {
+
+    .navbar-brand img {
+        width: 16rem;
+    }
 
     .hero-header {
         font-size: 4rem;
