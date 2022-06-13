@@ -132,8 +132,28 @@ body {
 /* mobile devices */
 
 @media only screen and (min-width: 0) and (max-width: 300px) {
+
+    .hero-header {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
     .navbar-brand img {
         width: 11.5rem;
+    }
+
+    .product-header {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .product-price {
+        font-size: 1.3rem;
+    }
+
+    .button-decoration {
+        font-size: 0.7rem;
+        padding: 0.8rem 1.4rem;
     }
 }
 
@@ -157,11 +177,24 @@ body {
     .card {
         padding-top: 1rem;
     }
+
+    .product-header {
+        font-size: 2.3rem;
+        text-align: center;
+    }
+
+    .product-price {
+        font-size: 1.8rem;
+    }
+
+    .button-decoration {
+        padding: 0.8rem 1.8rem;
+    }
 }
 
 /* tab devices */
 
-@media only screen and (min-width: 750px) and (max-width: 850px) {
+@media only screen and (min-width: 750px) and (max-width: 950px) {
 
     .hero-tab-img {
         width: 21rem;
@@ -169,6 +202,14 @@ body {
 
     .hero-details {
         width: 50%;
+    }
+
+    .product-price {
+        font-size: 1.8rem;
+    }
+
+    .button-decoration {
+        padding: 0.8rem 1.8rem;
     }
 
 }
