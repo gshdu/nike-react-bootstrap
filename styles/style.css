@@ -29,6 +29,14 @@ body {
     header section styles
 -------------------------- */
 
+.header-abstract-img {
+    height: 55%;
+    width: 8%;
+    position: absolute;
+    top: 0;
+    left: 27%;
+}
+
 .navbar-brand img {
     width: 18.5rem;
 }
